@@ -1,6 +1,6 @@
 # Replicación Bidireccional con Oracle GoldenGate
 
-Este repostorio muestra un ejemplo de replicación bidireccional entre una tabla origen en Oracle y dos tablas destino en Postgresql
+Este repositorio muestra un ejemplo de replicación bidireccional entre una tabla origen en Oracle y dos tablas destino en Postgresql
 
 # Requisitos
 
