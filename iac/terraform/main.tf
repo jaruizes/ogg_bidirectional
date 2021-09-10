@@ -24,10 +24,3 @@ module "rds" {
   security_group_id = module.vpc.security_group
   vpc_public_subnets = module.vpc.public_subnets
 }
-
-module "mks" {
-  source = "./modules/msk"
-  security_group_id = module.vpc.security_group
-  vpc_public_subnets = module.vpc.public_subnets
-}
-

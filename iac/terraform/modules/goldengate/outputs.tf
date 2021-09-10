@@ -17,13 +17,3 @@ output "goldengate_classic_postgresql_private_ip" {
   description = "Oracle GGC Postgresql private IP"
   value       = aws_instance.goldengate_postgresql.private_ip
 }
-
-output "goldengate_bigdata_public_ip" {
-  description = "Oracle GG BigData public IP"
-  value       = aws_instance.goldengate_bigdata.public_ip
-}
-
-output "goldengate_bigdata_private_ip" {
-  description = "Oracle GG BigData private IP"
-  value       = aws_instance.goldengate_bigdata.private_ip
-}
